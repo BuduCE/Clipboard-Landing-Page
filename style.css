@@ -1,0 +1,71 @@
+#headi{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+#head_h{
+    font-size: 3em;
+}
+#head_p{
+    width: 60%;
+    margin: auto;
+}
+.head_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#btn1,#btn2{
+    /*width: 20%;*/
+    padding: 9px 18px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+#btn1{
+    background-color: #25BBA4;
+    margin: 3px;
+}
+#btn2{
+    background-color: #6275FD;
+    margin: 3px;
+}
+
+/*sect1_1*/
+.sect1{
+    margin-top: 80px;
+}
+#sectOne{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+#sectTwo{
+    display: flex;
+    margin-top: 60px;
+}
+#sec_l{
+    width: 50%;
+    position: relative;
+    left: -55px;
+}
+#sec_r{
+    width: 50%;
+    position: right;
+    margin-top: 50px;
+}
+.sec_rp{
+    width: 80%;
+}
+.sect2{
+    text-align: center;
+    margin: auto;
+}
+#sect_c{
+    margin: auto;
+    margin-top: 45px;
+}
+.images{
+    width: 90%;/*40em;*/
+}
