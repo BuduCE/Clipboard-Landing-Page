@@ -69,3 +69,81 @@
 .images{
     width: 90%;/*40em;*/
 }
+.section-two{
+    text-align: center;
+}
+.section-header h2{
+    color: hsl(210, 10%, 33%);
+}
+.section-header p{
+    color: hsl(201, 11%, 66%);
+}
+.tools{
+    margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tool{
+    padding: 20px;
+}
+.tool h3{
+    color: hsl(210, 10%, 33%);
+}
+.tool p{
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+}
+.partners{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.partners img{
+    margin: 40px;
+}
+.clip-info{
+    text-align: center;
+}
+.clip-info h1{
+    color: hsl(210, 10%, 33%);
+}
+.clip-info p{
+    color: hsl(201, 11%, 66%);
+    padding: 0px 350px;
+}
+.section-btn{
+    margin-top: 30px;
+}
+.btn-1{
+    margin-right: 5px;
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: hsl(171, 66%, 44%);
+	border: none;
+	border-radius: 25px;
+}
+.btn-2{
+    margin-right: 5px;
+    padding: 10px 30px;
+    color: #ffffff;
+    border: none;
+	border-radius: 25px;
+    background-color: hsl(233, 100%, 69%);
+}
+@media (max-width: 575px){
+    .tools{
+        display: block;
+    }
+    .clip-info{
+        display: inline-block;
+    }
+    .clip-info p{
+        padding: 0px 20px;
+    }
+    .section-btn{
+        display: inline-grid;
+    }
+    .btn-2{
+        margin-top: 7px;
+    }
+}
