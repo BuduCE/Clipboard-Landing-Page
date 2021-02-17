@@ -1,8 +1,19 @@
+/*Image underlay at the header*/
+#banner{
+    width: 100%;
+    /*position: relative;*/
+    background-image: url(./assets/images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    margin-top: 60px;
+}
 #headi{
     text-align: center;
     width: 80%;
     margin: auto;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 #head_h{
     font-size: 3em;
@@ -41,23 +52,6 @@
     text-align: center;
     width: 40%;
 }
-#sectTwo{
-    display: flex;
-    margin-top: 60px;
-}
-#sec_l{
-    width: 50%;
-    position: relative;
-    left: -55px;
-}
-#sec_r{
-    width: 50%;
-    position: right;
-    margin-top: 50px;
-}
-.sec_rp{
-    width: 80%;
-}
 .sect2{
     text-align: center;
     margin: auto;
@@ -66,9 +60,55 @@
     margin: auto;
     margin-top: 45px;
 }
-.images{
-    width: 90%;/*40em;*/
+.img3{
+    width: 75%;
 }
+
+@media(max-width: 575px){
+    #sectTwo{
+        display: block;
+    }
+    #sec_r, #sec_l{
+        text-align: center;
+        margin: auto;
+    }
+    #sec_l{
+        width: 50%;
+    }
+    #sec_r{
+        width: 50%;
+    }
+    .img2{
+        width: 85%;
+    }
+    .head_btn{
+        display: inline-grid;
+    }
+}
+@media(min-width: 576px){
+    #sectTwo{
+        display: flex;
+        margin-top: 60px;
+    }
+    #sec_l{
+        width: 50%;
+        position: relative;
+        left: -55px;
+    }
+    #sec_r{
+        width: 50%;
+        /*margin-top: 50px;*/
+    }
+    .sec_rp{
+        width: 80%;
+    }
+    .img2{
+        width: 95%;
+    }
+}
+
+
+/*Section two*/
 .section-two{
     text-align: center;
 }
